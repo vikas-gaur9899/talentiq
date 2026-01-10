@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js backend using Express and MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "node server.js"
+  },
+  "keywords": ["node", "express", "mongodb", "backend"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
